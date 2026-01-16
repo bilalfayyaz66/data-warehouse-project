@@ -4,7 +4,7 @@ A comprehensive ETL (Extract, Transform, Load) solution for the TBWalmart data w
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Features](#features)
 - [Architecture](#architecture)
@@ -20,17 +20,17 @@ A comprehensive ETL (Extract, Transform, Load) solution for the TBWalmart data w
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Core Features
-- ✅ **Multithreaded Data Loading**: Parallel processing for faster ETL operations
-- ✅ **Hybrid Join Implementation**: Combines Hash Join and Nested Loop Join algorithms
-- ✅ **Incremental Loading**: SCD Type 1 implementation with upsert operations
-- ✅ **Star Schema Design**: Optimized dimensional modeling
-- ✅ **Data Quality Validation**: Automated integrity and quality checks
-- ✅ **Comprehensive Logging**: Detailed execution logs with timestamps
-- ✅ **Interactive CLI**: User-friendly command-line interface
-- ✅ **Error Recovery**: Robust exception handling and rollback mechanisms
+-  **Multithreaded Data Loading**: Parallel processing for faster ETL operations
+-  **Hybrid Join Implementation**: Combines Hash Join and Nested Loop Join algorithms
+-  **Incremental Loading**: SCD Type 1 implementation with upsert operations
+-  **Star Schema Design**: Optimized dimensional modeling
+-  **Data Quality Validation**: Automated integrity and quality checks
+-  **Comprehensive Logging**: Detailed execution logs with timestamps
+-  **Interactive CLI**: User-friendly command-line interface
+-  **Error Recovery**: Robust exception handling and rollback mechanisms
 
 ### Advanced Features
 - **Connection Pooling**: Efficient database connection management
@@ -41,7 +41,7 @@ A comprehensive ETL (Extract, Transform, Load) solution for the TBWalmart data w
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 ### Star Schema Design
 
@@ -137,7 +137,7 @@ A comprehensive ETL (Extract, Transform, Load) solution for the TBWalmart data w
 
 ---
 
-## 📦 Prerequisites
+##  Prerequisites
 
 ### Software Requirements
 - **Python**: 3.8 or higher
@@ -152,7 +152,7 @@ mysql-connector-python>=8.0.0
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Step 1: Clone or Download the Project
 
@@ -187,7 +187,7 @@ Ensure these CSV files are present in the project directory:
 
 ---
 
-## 💻 Usage
+##  Usage
 
 ### Running the ETL Pipeline
 
@@ -287,7 +287,7 @@ ETL PIPELINE COMPLETED SUCCESSFULLY in 45.67 seconds
 
 ---
 
-## 🔧 Technical Implementation
+##  Technical Implementation
 
 ### 1. Hybrid Join Algorithm
 
@@ -391,7 +391,7 @@ ON DUPLICATE KEY UPDATE
 
 ---
 
-## 📊 Data Flow
+##  Data Flow
 
 ### Dimension Loading Sequence
 
@@ -432,7 +432,7 @@ Metrics: Quantity, Total_Amount, Revenue
 
 ---
 
-## ⚡ Performance Optimization
+##  Performance Optimization
 
 ### Techniques Implemented
 
@@ -550,7 +550,7 @@ Orphan Sales (Invalid Date): ✓ PASS
 
 ---
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -639,7 +639,7 @@ Error: FileNotFoundError: [Errno 2] No such file or directory: 'customer_master_
 
 ---
 
-## 📚 Code Structure
+##  Code Structure
 
 ```
 Bilal DWH Project/
@@ -662,7 +662,7 @@ Bilal DWH Project/
 
 ---
 
-## 🎯 Key Features Explained
+##  Key Features Explained
 
 ### 1. Why Hybrid Join?
 
@@ -688,7 +688,7 @@ Advantages:
 
 ---
 
-## 📈 Sample Queries
+##  Sample Queries
 
 After loading, try these queries in MySQL Workbench:
 
@@ -780,23 +780,18 @@ Potential improvements:
 
 ---
 
-## 📞 Support
+##  Support
 
 For issues or questions:
-1. Check the [Troubleshooting](#troubleshooting) section
-2. Review log files for error details
-3. Verify prerequisites are met
-4. Check database connectivity
+bilalfayyaz328@gmail.com
 
----
-
-## 📄 License
+##  License
 
 This project is created for educational purposes as part of the Data Warehouse course.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Bilal** - Data Warehouse Project
 - Course: Data Warehousing
@@ -804,7 +799,7 @@ This project is created for educational purposes as part of the Data Warehouse c
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - MySQL documentation for database best practices
 - Pandas library for data manipulation
@@ -814,3 +809,4 @@ This project is created for educational purposes as part of the Data Warehouse c
 ---
 
 **Happy Data Warehousing! 🎉**
+
